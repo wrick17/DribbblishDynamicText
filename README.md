@@ -1,28 +1,25 @@
-# DribbblishDynamic
-This is a tweaked version of Dribbblish theme. The main difference is that the highligh color is dynamic, ie. it will match the current album art colours (note: local files are excluded).
+# DribbblishDynamicText
+This is a tweaked version of [DribbblishDynamic](https://github.com/morpheusthewhite/spicetify-themes/tree/master/DribbblishDynamic) theme. The main difference is that the sidebar will have text along with images.
 
 ## Screenshots
 
-#### Dark
 ![demo-dark](./color-match-bg.gif)
-
-#### White
-![demo-white](./white.png)
 
 ## More
 Requires spicetify-cli **v0.9.9 or newer**.
 
 ### How to install
+First copy this folder into the `Themes` folder within the `spicetify` directory.
 Run these command:
 
 #### Linux and MacOS:
 In **Bash**:
 ```bash
-cd "$(dirname "$(spicetify -c)")/Themes/DribbblishDynamic"
+cd "$(dirname "$(spicetify -c)")/Themes/DribbblishDynamicText"
 mkdir -p ../../Extensions
 cp dribbblish-dynamic.js ../../Extensions/.
 spicetify config extensions dribbblish-dynamic.js
-spicetify config current_theme DribbblishDynamic color_scheme dark
+spicetify config current_theme DribbblishDynamicText color_scheme dark
 spicetify config inject_css 1 replace_colors 1 overwrite_assets 1
 spicetify apply
 ```
@@ -30,10 +27,10 @@ spicetify apply
 #### Windows
 In **Powershell**:
 ```powershell
-cd "$(spicetify -c | Split-Path)\Themes\DribbblishDynamic"
+cd "$(spicetify -c | Split-Path)\Themes\DribbblishDynamicText"
 Copy-Item dribbblish-dynamic.js ..\..\Extensions
 spicetify config extensions dribbblish-dynamic.js
-spicetify config current_theme DribbblishDynamic color_scheme dark
+spicetify config current_theme DribbblishDynamicText color_scheme dark
 spicetify config inject_css 1 replace_colors 1 overwrite_assets 1
 spicetify apply
 ```
