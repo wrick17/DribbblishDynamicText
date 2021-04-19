@@ -3,7 +3,7 @@ This is a tweaked version of [DribbblishDynamic](https://github.com/morpheusthew
 
 ## Screenshots
 
-![demo-dark](./color-match-bg.gif)
+![demo-dark](./color-match-bg-with-text.gif)
 
 ## More
 Requires spicetify-cli **v0.9.9 or newer**.
